@@ -38,6 +38,7 @@
 
 ## 3. Success Metrics & Key Performance Indicators (KPIs)
 ### Example:
+
 | Dimension | Success Metric / Evaluator | Target Baseline Threshold |
 | :--- | :--- | :--- |
 | **Productivity Gains** | Reduced Turnaround Time (TAT), Increased efficiency,  | [e.g., 30% reduction in TAT] |
@@ -48,6 +49,7 @@
 
 ## 4. Actors, Personas & Responsibilities Matrix
 ### Example: 
+
 | Actor / Persona | Core Responsibilities | PHI / PII Data Access Level |
 | :--- | :--- | :--- |
 | **Clinical End-User**<br><small>(e.g., Pathologist, Radiologist)</small> | Validates AI inference outputs; flags false positives/negatives; signs off on final clinical findings. | **Full Access:** Explicitly tied to assigned patients within active clinical workflows. |
@@ -114,6 +116,7 @@
 ### 6.1 In Scope (MVP)
 *[Detail the functional requirements and use cases that are strictly required for the initial release.]*
 #### Example: 
+
 | Use Case | Inputs | Outputs | Decision Trigger |
 | :--- | :--- | :--- | :--- |
 |UseCase 1| Input 1 | Output 1| Pass If condition met , Acceptable If condition met, Reject If condition not met | 
