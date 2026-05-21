@@ -1,4 +1,4 @@
-# Technical Product Requirements Specification (Lite Template)
+# Technical Product Requirements Specification (Lite)
 ## Healthcare AI Solution - Fast-Track
 
 > **TEMPLATE DIRECTIVE:** 
