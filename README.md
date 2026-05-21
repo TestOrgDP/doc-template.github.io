@@ -1,6 +1,7 @@
 # document-templates
-# Collection of templates for
-  - [Product Requirements (AI/ML)](Product-Requirements.md)
+  - AI/ML Technical Products
+    - [Product Requirements](Product-Requirements.md)
+    - [Product Requirements Lite](Product-Requirements-Lite.md)
   - Technical Design and Implementation
   - Proof of Concepts
   - Root Cause Analysis
