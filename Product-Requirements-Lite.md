@@ -3,6 +3,7 @@
 
 > **TEMPLATE DIRECTIVE:** 
 > This "Lite" document serves as a streamlined PRD for rapid prototyping and MVP fast-tracking. It retains mandatory clinical, safety, and architectural guardrails while reducing the granularity of the full enterprise spec.
+
 > *Instructions:* Replace bracketed text `*[...]*` with your project specifics. While the core sections must be respected and retained, authors are encouraged to add sub-sections and append more details tailored to their specific solution proposal.
 
 ### Document Metadata
@@ -20,6 +21,7 @@
     *   **AI/ML Intervention:** *[How the AI/ML solution solves the clinical/workflow problem (e.g., diagnostic aid, autonomous screener, post-hoc auditor).]*
 *   **In-Scope:** *[List the core functional use cases strictly required along with conditions for acceptance/rejection.]*
 *   **Out-of-Scope:** *[Explicitly list what will NOT be built in this phase, and reasoning/justification for exclusion.]*
+*   **Data Prerequisites:** *[e.g., Do we need 5,000 labeled X-rays or access to the live FHIR API]*
 *   **Low Fidelity (Lo-Fi) screen mockups:**
     *  *[Link to or embed structural wireframes illustrating the proposed clinical workflow, screen layouts, and AI/ML interaction points for early clinical validation before engineering begins.]*
 
@@ -30,6 +32,7 @@
 ## 3. System Architecture
 *   **Architecture Flow:** *[Insert basic block diagram of data flow from UI -> Gateway -> AI Model.]*
 *   **Multi-Site/Tenant Strategy:** *[Briefly outline if the architecture must support federated SSO, tenant-isolated datastores, or local edge nodes vs. pure cloud.]*
+*   **Deployment Strategy:** *[Briefly outline deployment environment, on-premise, cloud, hybrid, multi-cloud etc.]*
 *   **Model & Agent Strategy:** *[Specify usage of any LLM APIs (e.g., OpenAI, Claude, Google Gemini), open-source models, or custom-trained models, fine-tuned models. Include high-level fallback plans.]*
 *   **Exception & Limit Handling:** *[Define how the system gracefully handles API rate limits, token budget overages, and context window exceeded errors (e.g., text truncation strategies, fallback models, or user alerts).]*
 
@@ -47,7 +50,7 @@
 
 *   **Data De-identification:** *[Briefly explain how you will strip PII/PHI (e.g., DICOM headers, FHIR text) before data is sent to the AI.]*
 *   **AI Safety & Guardrails:** *[What system-level safeguards (e.g., secondary validation models, deterministic rule engines) will intercept and block clinically unsafe hallucinations?]*
-*   **Access Control (RBAC/ABAC):**
+*   **User Authentication and Authorization (RBAC/ABAC):** *[Briefly explain User Authentication and the Authorization strategy. Who can access what data, and what actions can they perform?]*
 
 ## 7. Regulatory & Compliance Requirements
 *   **Data Privacy (e.g., GDPR, DPDP):** *[List the primary data privacy regulations this MVP must adhere to based on the target geography.]*
