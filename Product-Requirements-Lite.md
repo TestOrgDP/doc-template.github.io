@@ -3,7 +3,7 @@
 
 > **TEMPLATE DIRECTIVE:** 
 > This "Lite" document serves as a streamlined PRD for rapid prototyping and MVP fast-tracking. It retains mandatory clinical, safety, and architectural guardrails while reducing the granularity of the full enterprise spec.
-> *Instructions:* Replace bracketed text `*[...]*` with your project specifics.
+> *Instructions:* Replace bracketed text `*[...]*` with your project specifics. While the core sections must be respected and retained, authors are encouraged to add sub-sections and append more details tailored to their specific solution proposal.
 
 ### Document Metadata
 *   **Document ID:** 
